@@ -272,9 +272,9 @@ button.disabled:hover {
 </style>
 </head>
 <body>
-<h1>Picker</h1>
+<h1>Mario Kart 8 Deluxe Favorites Picker</h1>
 
-<p>You can include any content you want here.</p>
+<p>This is a picker based off of the <a href="https://www.dragonflycave.com/favorite.html">Favorite Pokémon Picker</a> retooled for the tracks found in Mario Kart 8 Deluxe.</p>
 
 <div id="container">
 
@@ -282,7 +282,7 @@ button.disabled:hover {
 <ul id="evaluating" class="item-list">
 </ul>
 
-<p id="buttons"><button id="pick">Pick</button> <button id="pass">Pass</button> <button id="undo">Undo</button> <button id="redo">Redo</button></p>
+<p id="buttons"><button id="pick">Pick</button> <button id="pass">Pass</button> <button id="undo">Undo</button> <button id="redo">Redo</button> <button id="reset">Reset All</button></p>
 </div>
 
 <div id="secondary">
@@ -428,6 +428,7 @@ var pickerUI = new PickerUI(myPicker, {
         pass: "#pass",
         undo: "#undo",
         redo: "#redo",
+        reset: "#reset",
         evaluating: "#evaluating",
         favorites: "#favorites",
         shortcodeLink: "#shortcode-link",
